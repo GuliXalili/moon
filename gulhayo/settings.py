@@ -54,7 +54,7 @@ ROOT_URLCONF = 'gulhayo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [ BASE_DIR / 'frontend'],
+        'DIRS': [ BASE_DIR / 'dizayn'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
